@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="JobsAPISuite" duration-ms="5405" started-at="2022-06-07T17:46:17 CDT" finished-at="2022-06-07T17:46:22 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5405" started-at="2022-06-07T17:46:17 CDT" finished-at="2022-06-07T17:46:22 CDT">
+      <class name="jobs.herokku.testCases.TC004_Put_Job_Update">
+        <test-method status="PASS" signature="updateJobs()[pri:0, instance:jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74]" name="updateJobs" is-config="true" duration-ms="2213" started-at="2022-06-07T17:46:17 CDT" finished-at="2022-06-07T17:46:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateJobs -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74]" name="checkContentType" duration-ms="0" started-at="2022-06-07T17:46:19 CDT" finished-at="2022-06-07T17:46:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:0, instance:jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74]" name="checkResposeBody" duration-ms="22" started-at="2022-06-07T17:46:19 CDT" finished-at="2022-06-07T17:46:19 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCodeAndSchema()[pri:0, instance:jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74]" name="checkStatusCodeAndSchema" duration-ms="810" started-at="2022-06-07T17:46:19 CDT" finished-at="2022-06-07T17:46:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCodeAndSchema -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-07T17:46:20 CDT" finished-at="2022-06-07T17:46:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkserverType()[pri:0, instance:jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74]" name="checkserverType" duration-ms="0" started-at="2022-06-07T17:46:20 CDT" finished-at="2022-06-07T17:46:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74]" name="checkstatusLine" duration-ms="0" started-at="2022-06-07T17:46:20 CDT" finished-at="2022-06-07T17:46:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+      </class> <!-- jobs.herokku.testCases.TC004_Put_Job_Update -->
+      <class name="jobs.herokku.testCases.TC002_Post_Job_Details">
+        <test-method status="PASS" signature="postJobDetails()[pri:0, instance:jobs.herokku.testCases.TC002_Post_Job_Details@4d5b6aac]" name="postJobDetails" is-config="true" duration-ms="0" started-at="2022-06-07T17:46:20 CDT" finished-at="2022-06-07T17:46:20 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJobDetails -->
+        <test-method status="PASS" signature="postNewJobDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:jobs.herokku.testCases.TC002_Post_Job_Details@4d5b6aac]" name="postNewJobDetails" duration-ms="316" started-at="2022-06-07T17:46:21 CDT" data-provider="JobAPIData" finished-at="2022-06-07T17:46:21 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HomeMaker]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Houston]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Part-time]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[5 hours ago]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Wonderfull jobs with excellent team]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postNewJobDetails -->
+        <test-method status="PASS" signature="checkStatusCodeAndSchema()[pri:2, instance:jobs.herokku.testCases.TC002_Post_Job_Details@4d5b6aac]" name="checkStatusCodeAndSchema" duration-ms="42" started-at="2022-06-07T17:46:21 CDT" finished-at="2022-06-07T17:46:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCodeAndSchema -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:3, instance:jobs.herokku.testCases.TC002_Post_Job_Details@4d5b6aac]" name="checkResposeBody" duration-ms="58" started-at="2022-06-07T17:46:21 CDT" finished-at="2022-06-07T17:46:21 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+      </class> <!-- jobs.herokku.testCases.TC002_Post_Job_Details -->
+      <class name="jobs.herokku.testCases.TC001_Get_All_Jobs">
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="getAllEmployees" is-config="true" duration-ms="301" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="checkResposeBody()[pri:1, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkResposeBody" duration-ms="15" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody -->
+        <test-method status="PASS" signature="checkStatusCodeAndSchema()[pri:2, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkStatusCodeAndSchema" duration-ms="38" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCodeAndSchema -->
+        <test-method status="PASS" signature="checkContentType()[pri:5, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkContentType" duration-ms="15" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:3, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkResponseTime" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:4, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkstatusLine" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="checkserverType()[pri:6, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkserverType" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+        <test-method status="PASS" signature="checkContentLenght()[pri:7, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkContentLenght" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLenght -->
+        <test-method status="PASS" signature="checkContentEncoding()[pri:8, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkContentEncoding" duration-ms="16" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="PASS" signature="checkAllHeaders()[pri:9, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="checkAllHeaders" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllHeaders -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- jobs.herokku.testCases.TC001_Get_All_Jobs -->
+      <class name="jobs.herokku.testCases.TC005_Delete_Job">
+        <test-method status="PASS" signature="deleteEmployee()[pri:0, instance:jobs.herokku.testCases.TC005_Delete_Job@3e84448c]" name="deleteEmployee" is-config="true" duration-ms="317" started-at="2022-06-07T17:46:21 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:jobs.herokku.testCases.TC005_Delete_Job@3e84448c]" name="checkContentType" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkStatusCodeAndSchema()[pri:0, instance:jobs.herokku.testCases.TC005_Delete_Job@3e84448c]" name="checkStatusCodeAndSchema" duration-ms="31" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCodeAndSchema -->
+        <test-method status="PASS" signature="checkcontentEncoding()[pri:0, instance:jobs.herokku.testCases.TC005_Delete_Job@3e84448c]" name="checkcontentEncoding" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcontentEncoding -->
+        <test-method status="PASS" signature="checkstatusLine()[pri:0, instance:jobs.herokku.testCases.TC005_Delete_Job@3e84448c]" name="checkstatusLine" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkstatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jobs.herokku.testCases.TC005_Delete_Job@3e84448c]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="checkserverType()[pri:0, instance:jobs.herokku.testCases.TC005_Delete_Job@3e84448c]" name="checkserverType" duration-ms="0" started-at="2022-06-07T17:46:22 CDT" finished-at="2022-06-07T17:46:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType -->
+      </class> <!-- jobs.herokku.testCases.TC005_Delete_Job -->
+    </test> <!-- Test -->
+  </suite> <!-- JobsAPISuite -->
+</testng-results>

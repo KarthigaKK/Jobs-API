@@ -1,0 +1,189 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 07 17:46:17 CDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5405 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkResposeBody()'><b>checkResposeBody</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkStatusCodeAndSchema()'><b>checkStatusCodeAndSchema</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkstatusLine()'><b>checkstatusLine</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC004_Put_Job_Update.checkserverType()'><b>checkserverType</b><br>Test class: jobs.herokku.testCases.TC004_Put_Job_Update</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC005_Delete_Job.checkContentType()'><b>checkContentType</b><br>Test class: jobs.herokku.testCases.TC005_Delete_Job</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC005_Delete_Job@3e84448c</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkContentType()'><b>checkContentType</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC004_Put_Job_Update.checkContentType()'><b>checkContentType</b><br>Test class: jobs.herokku.testCases.TC004_Put_Job_Update</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC004_Put_Job_Update.checkResposeBody()'><b>checkResposeBody</b><br>Test class: jobs.herokku.testCases.TC004_Put_Job_Update</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC002_Post_Job_Details.postNewJobDetails()'><b>postNewJobDetails</b><br>Test class: jobs.herokku.testCases.TC002_Post_Job_Details<br>Parameters: 5000, SDET, HomeMaker, Houston, Part-time, 5 hours ago, Wonderfull jobs with excellent team</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC002_Post_Job_Details@4d5b6aac</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC004_Put_Job_Update.checkstatusLine()'><b>checkstatusLine</b><br>Test class: jobs.herokku.testCases.TC004_Put_Job_Update</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC005_Delete_Job.checkserverType()'><b>checkserverType</b><br>Test class: jobs.herokku.testCases.TC005_Delete_Job</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC005_Delete_Job@3e84448c</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC005_Delete_Job.checkStatusCodeAndSchema()'><b>checkStatusCodeAndSchema</b><br>Test class: jobs.herokku.testCases.TC005_Delete_Job</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC005_Delete_Job@3e84448c</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC002_Post_Job_Details.checkResposeBody()'><b>checkResposeBody</b><br>Test class: jobs.herokku.testCases.TC002_Post_Job_Details</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC002_Post_Job_Details@4d5b6aac</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkContentEncoding()'><b>checkContentEncoding</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC005_Delete_Job.checkcontentEncoding()'><b>checkcontentEncoding</b><br>Test class: jobs.herokku.testCases.TC005_Delete_Job</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC005_Delete_Job@3e84448c</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC004_Put_Job_Update.checkStatusCodeAndSchema()'><b>checkStatusCodeAndSchema</b><br>Test class: jobs.herokku.testCases.TC004_Put_Job_Update</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC004_Put_Job_Update@4bb33f74</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC005_Delete_Job.checkstatusLine()'><b>checkstatusLine</b><br>Test class: jobs.herokku.testCases.TC005_Delete_Job</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC005_Delete_Job@3e84448c</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkResponseTime()'><b>checkResponseTime</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkAllHeaders()'><b>checkAllHeaders</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkserverType()'><b>checkserverType</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC001_Get_All_Jobs.checkContentLenght()'><b>checkContentLenght</b><br>Test class: jobs.herokku.testCases.TC001_Get_All_Jobs</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC001_Get_All_Jobs@4a7f959b</td></tr>
+<tr>
+<td title='jobs.herokku.testCases.TC002_Post_Job_Details.checkStatusCodeAndSchema()'><b>checkStatusCodeAndSchema</b><br>Test class: jobs.herokku.testCases.TC002_Post_Job_Details</td>
+<td></td>
+<td>0</td>
+<td>jobs.herokku.testCases.TC002_Post_Job_Details@4d5b6aac</td></tr>
+</table><p>
+</body>
+</html>

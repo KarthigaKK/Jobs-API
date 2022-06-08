@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="JobsAPISuite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="jobs.herokku.testCases.TC004_Put_Job_Update"/>
+      <class name="jobs.herokku.testCases.TC002_Post_Job_Details"/>
+      <class name="jobs.herokku.testCases.TC005_Delete_Job"/>
+      <class name="jobs.herokku.testCases.TC001_Get_All_Jobs"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
